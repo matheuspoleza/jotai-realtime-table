@@ -1,0 +1,28 @@
+{
+  "name": "server-logux",
+  "packageManager": "yarn@3.6.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "node ./src/index.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@logux/server": "^0.12.3",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.8",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "lowdb": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  }
+}
